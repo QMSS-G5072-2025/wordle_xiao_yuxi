@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wordle<yx2910>"
+name = "wordle_yx2910"
 version = "0.1.0"
 description = "Adding a wordle function to the cookiecutter"
 authors = ["Yuxi"]
