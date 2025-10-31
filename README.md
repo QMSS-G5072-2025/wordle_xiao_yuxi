@@ -1,11 +1,11 @@
-# wordle<yx2910>
+# wordle_yx2910
 
 Adding a wordle function to the cookiecutter
 
 ## Installation
 
 ```bash
-$ pip install wordle<yx2910>
+$ pip install wordle_yx2910
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`wordle<yx2910>` was created by Yuxi. It is licensed under the terms of the MIT license.
+`wordle_yx2910` was created by Yuxi. It is licensed under the terms of the MIT license.
 
 ## Credits
 
-`wordle<yx2910>` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+`wordle_yx2910` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
