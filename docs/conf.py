@@ -10,6 +10,9 @@ project = u"wordle<yx2910>"
 copyright = u"2025, Yuxi"
 author = u"Yuxi"
 
+import os, sys
+sys.path.insert(0, os.path.abspath('../src'))
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -20,6 +23,8 @@ extensions = [
     "autoapi.extension",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    "sphinx.ext.autodoc",
+    
 ]
 autoapi_dirs = ["../src"]
 
