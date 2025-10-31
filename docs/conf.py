@@ -5,13 +5,14 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Project information -----------------------------------------------------
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../src')) 
 
-project = u"wordle<yx2910>"
-copyright = u"2025, Yuxi"
-author = u"Yuxi"
+project = "wordle_yx2910"  
+copyright = "2025, Yuxi"
+author = "Yuxi"
 
-import os, sys
-sys.path.insert(0, os.path.abspath('../src'))
 
 # -- General configuration ---------------------------------------------------
 
@@ -28,6 +29,10 @@ extensions = [
 ]
 autoapi_dirs = ["../src"]
 
+autoapi_type = "python"
+autoapi_add_toctree_entry = False   # we link it manually via api.rst
+
+
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
@@ -39,3 +44,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+
+
+
+
+
