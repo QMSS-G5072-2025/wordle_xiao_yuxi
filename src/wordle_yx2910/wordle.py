@@ -13,6 +13,15 @@ def validate_guess(guess, word_length=5):
     -------
     bool
         True if guess is valid, False otherwise.
+    
+    Examples
+    --------
+    >>> validate_guess("apple")
+    True
+    >>> validate_guess("Apple")
+    False
+    >>> validate_guess("apps", word_length=4)
+    True
     """
     if not isinstance(guess, str):
         return False
@@ -83,6 +92,17 @@ def is_valid_word(word, word_list):
     -------
     bool
         True if word is in the list, False otherwise.
+    
+    Examples
+    --------
+    >>> is_valid_word("apple", ["Apple", "robot"])
+    True
+    >>> is_valid_word("APPLE", ["apple", "robot"])
+    True
+    >>> is_valid_word("hello", ["Apple", "robot"])
+    False
+    >>> is_valid_word("pear", [])
+    False
     """
     return word.lower() in [w.lower() for w in word_list]
 
