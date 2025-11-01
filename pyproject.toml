@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wordle_yx2910"
-version = "0.1.0"
+version = "0.1.1"
 description = "Adding a wordle function to the cookiecutter"
 authors = ["Yuxi"]
 license = "MIT"
@@ -18,6 +18,7 @@ sphinx = "^8.2.3"
 myst-nb = "^1.3.0"
 sphinx-autoapi = "^3.6.1"
 sphinx-rtd-theme = "^3.0.2"
+pytest-cov = "^7.0.0"
 
 
 [tool.poetry.group.docs.dependencies]
@@ -28,3 +29,8 @@ sphinx-autodoc-typehints = "^3.5.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/QMSS-G5072-2025/wordle_xiao_yuxi"
+"Repository" = "https://github.com/QMSS-G5072-2025/wordle_xiao_yuxi"
+"Bug Tracker" = "https://github.com/QMSS-G5072-2025/wordle_xiao_yuxi/issues"
